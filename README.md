@@ -1,6 +1,6 @@
 # Kodjeng Spaceship
 
-A small 3D arcade-style space shooter built with modern OpenGL (3.3 core).  
+A small 3D arcade-style space shooter built with modern OpenGL.
 You control a rocket in space, shoot incoming UFOs, dodge enemy bullets, and survive as long as you can while your score and HP are shown with an overlay HUD.
 
 This project is based on the LearnOpenGL framework and adds:
@@ -17,14 +17,14 @@ This project is based on the LearnOpenGL framework and adds:
 ## Features
 
 - **Player**
-  - 3D rocket model (`Rocket.dae`, from Rocket0402 asset)
+  - 3D rocket model (`Rocket.dae`)
   - Smooth WASD movement in 2D plane
   - Camera follows behind the player
   - Hit-flash effect when damaged
   - HP bar in the top-left corner with color changing from green → red
 
 - **Enemies**
-  - UFO model (`SpaceShip.dae`, from Low Poly Spaceship asset)
+  - UFO model (`SpaceShip.dae`)
   - Random bright colors
   - Move forward with subtle sine-wave horizontal motion
   - Flash + spin + shrink animation when hit
@@ -33,7 +33,7 @@ This project is based on the LearnOpenGL framework and adds:
 - **Bullets**
   - Player bullets auto-fire with cooldown
   - Enemy bullets are aimed at the player
-  - Both use a 3D bullet model (`9mm.dae`, from Low Poly 9mm Pistol Bullet asset)
+  - Both use a 3D bullet model (`9mm.dae`)
   - Collisions:
     - Player bullets vs enemies → enemy dies, score +5
     - Enemy bullets vs player → HP −10
@@ -123,18 +123,16 @@ Example layout for the repository:
 ├── resources/
 │   ├── audio/
 │   │   ├── bg.mp3
-│   │   ├── hit_enemy.wav
-│   │   └── hit_player.wav
+│   │   ├── hit.wav
+│   │   └── damage.wav
 │   ├── fonts/
 │   │   └── OCRAEXT.ttf
 │   ├── objects/
 │   │   └── ufo/
-│   │       ├── Rocket.dae
 │   │       ├── SpaceShip.dae
+│   │       ├── Rocket.dae
 │   │       └── 9mm.dae
 │   └── textures/
-│       ├── wood.png
-│       ├── container2.png
 │       └── nightskybox/
 │           ├── right.png
 │           ├── left.png
@@ -147,10 +145,8 @@ Example layout for the repository:
 │   ├── 6.bloom.fs
 │   ├── 6.bloom_final.vs
 │   ├── 6.bloom_final.fs
-│   ├── 6.new_downsample.vs
-│   ├── 6.new_downsample.fs
-│   ├── 6.new_upsample.vs
-│   ├── 6.new_upsample.fs
+│   ├── 6.cubemaps.vs
+│   ├── 6.cubemaps.fs
 │   ├── 6.sky_box.vs
 │   ├── 6.sky_box.fs
 │   ├── crosshair.vs
