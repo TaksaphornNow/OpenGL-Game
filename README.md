@@ -98,7 +98,31 @@ This project uses:
   - `Camera`
   - `Model`
   - `FileSystem`
-  - 
+
+## Demo
+
+Watch a short gameplay demo here:
+
+https://github.com/user-attachments/assets/cc4e05b0-a89c-445b-b9bc-843621d64a37
+
+---
+
+## Screenshots
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/38704d1e-e686-482e-8fac-b598442415ad" alt="Start screen with title and controls" width="400" />
+  <img src="https://github.com/user-attachments/assets/a48d8fc7-16c2-4e48-b923-4b269ebc98ac" alt="Gameplay showing player rocket and enemies" width="400" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/50105564-2054-4f74-b46c-83e98e33167c" alt="HP bar and score HUD during gameplay" width="400" />
+  <img src="https://github.com/user-attachments/assets/f83fd793-e343-4590-a716-b936c60b4a6b" alt="Pause or game over screen with overlay text" width="400" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0b6b7dde-1988-4b7b-9174-5634cb276303" alt="Enemy bullets and bloom effects in space scene" width="400" />
+</p>
+
 ---
 
 ## Project Structure
@@ -154,6 +178,8 @@ This project uses:
 │   └── text.fs
 └── README.md
 ```
+
+---
 
 ## Art, Audio & Font Credits
 
