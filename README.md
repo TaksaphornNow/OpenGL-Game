@@ -30,7 +30,7 @@ This project is based on the LearnOpenGL framework and adds:
   - Respawn at random positions after death
 
 - **Bullets**
-  - Player bullets auto-fire with cooldown
+  - Player bullets auto-fire
   - Enemy bullets are aimed at the player
   - Both use a 3D bullet model (`9mm.dae`)
   - Collisions:
@@ -76,8 +76,6 @@ This project is based on the LearnOpenGL framework and adds:
 - **Visual tuning**
   - `Q` – Decrease exposure  
   - `E` – Increase exposure  
-
-Player bullets fire automatically at a fixed cooldown while you are playing.
 
 ---
 
