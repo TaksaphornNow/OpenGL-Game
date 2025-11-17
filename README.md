@@ -131,18 +131,6 @@ https://github.com/user-attachments/assets/cc4e05b0-a89c-445b-b9bc-843621d64a37
 .
 ├── src/
 │   └── physically_based_bloom.cpp
-├── include/
-│   ├── glad/...
-│   ├── GLFW/...
-│   ├── glm/...
-│   ├── stb_image.h
-│   ├── irrKlang/...
-│   ├── assimp/...
-│   └── learnopengl/
-│       ├── shader.h
-│       ├── camera.h
-│       ├── model.h
-│       └── filesystem.h
 ├── resources/
 │   ├── audio/
 │   │   ├── bg.mp3
