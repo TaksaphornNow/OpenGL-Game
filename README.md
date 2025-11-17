@@ -1,7 +1,6 @@
 # Kodjeng Spaceship
 
-A small 3D arcade-style space shooter built with modern OpenGL.
-You control a rocket in space, shoot incoming UFOs, dodge enemy bullets, and survive as long as you can while your score and HP are shown with an overlay HUD.
+A small 3D arcade-style space shooter built with modern OpenGL, where you control a rocket in space, shoot incoming enemies, dodge enemy ships and bullets, and survive as long as possible while your score and HP are displayed in an on-screen HUD.
 
 This project is based on the LearnOpenGL framework and adds:
 
@@ -42,7 +41,6 @@ This project is based on the LearnOpenGL framework and adds:
 - **Rendering**
   - HDR framebuffer with bloom
   - Night skybox
-  - Exposure control (tone mapping) via keyboard
   - Simple crosshair in the center of the screen
 
 - **HUD & UI**
@@ -54,6 +52,11 @@ This project is based on the LearnOpenGL framework and adds:
     - Start screen (`Press ENTER to START`)
     - Pause screen (`PAUSED`)
     - Game over screen (`GAME OVER` / `Press R to RESTART`)
+
+- **Audio**
+  - Background space ambience
+  - Sound effect when hitting an enemy (coin/score sound)
+  - Sound effect when the player is hit (buzzer/error sound)
 
 ---
 
@@ -95,14 +98,10 @@ This project uses:
   - `Camera`
   - `Model`
   - `FileSystem`
-
-You’ll need a C++ compiler with C++17 support and a GPU/driver that supports OpenGL 3.3 or higher.
-
+  - 
 ---
 
 ## Project Structure
-
-Example layout for the repository:
 
 ```text
 .
@@ -154,3 +153,42 @@ Example layout for the repository:
 │   ├── text.vs
 │   └── text.fs
 └── README.md
+```
+
+## Art, Audio & Font Credits
+
+- **3D Models**
+  - Player rocket – Rocket0402
+    Rocket model from TurboSquid:
+    https://www.turbosquid.com/3d-models/rocket0402-1851445
+
+  - Enemy ship – Low Poly Spaceship 3D Model
+    Enemy spaceship model from Free3D: 
+    https://free3d.com/3d-model/low-poly-spaceship-37605.html
+
+  - Bullet – Low Poly 9mm Pistol Bullet
+    Bullet model from Sketchfab:
+    https://sketchfab.com/3d-models/low-poly-9mm-pistol-bullet-249ddd3567354dd2845455346f2ca721
+
+- **Audio**
+  
+   - Background sound – space_line by vlad.zaichyk (Freesound, via Pixabay)
+     https://pixabay.com/sound-effects/space-line-27593/
+
+   - Hit enemy sound – Winning a coin, video game (Mixkit)
+     https://mixkit.co/free-sound-effects/game/
+
+   - Hit player sound – Wrong answer bass buzzer (Mixkit)
+     https://mixkit.co/free-sound-effects/buzzer/
+
+- **Skybox**
+
+   - Space skybox textures – Some Space Skyboxes! Why not? by Jettelly
+     https://jettelly.com/blog/some-space-skyboxes-why-not
+
+- **Font**
+
+   - HUD text (HP / Score / overlay messages) uses the OCRAEXT.ttf font (OCR A Extended).
+     This font may be available on some systems (e.g., Windows). Please check the font’s license before redistributing it.
+
+All external assets are used here for learning and non-commercial purposes.
