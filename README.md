@@ -129,26 +129,6 @@ https://github.com/user-attachments/assets/cc4e05b0-a89c-445b-b9bc-843621d64a37
 .
 ├── src/
 │   └── physically_based_bloom.cpp
-├── resources/
-│   ├── audio/
-│   │   ├── bg.mp3
-│   │   ├── hit.wav
-│   │   └── damage.wav
-│   ├── fonts/
-│   │   └── OCRAEXT.ttf
-│   ├── objects/
-│   │   └── ufo/
-│   │       ├── SpaceShip.dae
-│   │       ├── Rocket.dae
-│   │       └── 9mm.dae
-│   └── textures/
-│       └── nightskybox/
-│           ├── right.png
-│           ├── left.png
-│           ├── top.png
-│           ├── bottom.png
-│           ├── front.png
-│           └── back.png
 ├── shaders/
 │   ├── 6.bloom.vs
 │   ├── 6.bloom.fs
