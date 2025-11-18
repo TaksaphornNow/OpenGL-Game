@@ -97,11 +97,13 @@ This project uses:
   - `Model`
   - `FileSystem`
 
+---
+
 ## Demo
 
 Watch a short gameplay demo here:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Sbot1xfmulM?si=9GbbzO_SXCXYr42p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+https://youtu.be/Sbot1xfmulM?si=d8RjMHDkHzVhGTM3
 
 ---
 
