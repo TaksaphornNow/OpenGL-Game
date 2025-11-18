@@ -101,7 +101,7 @@ This project uses:
 
 Watch a short gameplay demo here:
 
-[Youtube_VDO_DEMO](https://youtu.be/Sbot1xfmulM?si=8D7yMygaTo3WuosE)
+(https://youtu.be/Sbot1xfmulM?si=8D7yMygaTo3WuosE)
 
 ---
 
