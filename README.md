@@ -101,7 +101,7 @@ This project uses:
 
 Watch a short gameplay demo here:
 
-(https://youtu.be/Sbot1xfmulM?si=8D7yMygaTo3WuosE)
+[![Watch the video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
 
 ---
 
@@ -120,6 +120,14 @@ Watch a short gameplay demo here:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0b6b7dde-1988-4b7b-9174-5634cb276303" alt="Enemy bullets and bloom effects in space scene" width="400" />
 </p>
+
+---
+
+## ⬇️ Download & Play
+
+You can download and play **Kodjeng Spaceship** on itch.io:
+
+👉 **https://taksaphorn.itch.io/kodjeng-spaceship**
 
 ---
 
