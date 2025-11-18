@@ -101,7 +101,7 @@ This project uses:
 
 Watch a short gameplay demo here:
 
-[![Watch the video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sbot1xfmulM?si=9GbbzO_SXCXYr42p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
