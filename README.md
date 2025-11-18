@@ -125,11 +125,11 @@ https://youtu.be/Sbot1xfmulM?si=d8RjMHDkHzVhGTM3
 
 ---
 
-## ⬇️ Download & Play
+## Download & Play
 
 You can download and play **Kodjeng Spaceship** on itch.io:
 
-👉 **https://taksaphorn.itch.io/kodjeng-spaceship**
+**https://taksaphorn.itch.io/kodjeng-spaceship**
 
 ---
 
